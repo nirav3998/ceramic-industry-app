@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "493685101766",
+    "firebase_url": "https://valenzaceramic-8db2b.firebaseio.com",
+    "project_id": "valenzaceramic-8db2b",
+    "storage_bucket": "valenzaceramic-8db2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493685101766:android:df9dc4ce4873ec4d",
+        "android_client_info": {
+          "package_name": "com.example.valenzaceramic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493685101766-lrc5a03ftgmbq8evb5lu2n2oukd8t82a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.valenzaceramic",
+            "certificate_hash": "41286e540212a27feb5904173db33c4773394753"
+          }
+        },
+        {
+          "client_id": "493685101766-du4037a0k21eaijqueddhp0dpmo7b7l1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEstchumtNltX6tQrdkx9_VQUaPdd4svU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493685101766-du4037a0k21eaijqueddhp0dpmo7b7l1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

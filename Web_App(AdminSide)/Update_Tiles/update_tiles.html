@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Update Tiles</title>
+	<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyBmHrHJqasCvnervBYqrCfevBFzWJevZLU",
+		    authDomain: "valenzaceramic-8db2b.firebaseapp.com",
+		    databaseURL: "https://valenzaceramic-8db2b.firebaseio.com",
+		    projectId: "valenzaceramic-8db2b",
+		    storageBucket: "valenzaceramic-8db2b.appspot.com",
+		    messagingSenderId: "493685101766"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100" align="center">
+			<div class="wrap-login100" align="center">
+				
+
+				<form class="login100-form validate-form">
+					<span class="login100-form-title">
+					Search Tile Details
+					</span>
+
+					
+
+					<div class="wrap-input100 validate-input">
+						<input class="input100" list="browsers" id="Category" name="Category" placeholder="Category" class="list"  >
+				<datalist id="browsers">
+					<option value="FloorTiles">
+					<option value="WallTiles">
+					<option value="VitrifiedTiles">
+					<option value="CeramicTiles">
+					<option value="OutdoorTiles">
+				</datalist>
+						
+					
+					</div>
+
+
+						<div class="wrap-input100 validate-input">
+							<input class="input100" id="name" type="text" name="name" placeholder="Name">
+						</div>
+				</form>
+
+				<div class="container-login100-form-btn">
+					<button class="login100-form-btn" onclick="updateTile()">
+							Update
+					</button>
+				</div>
+
+				<div class="container-login100-form-btn">
+					<button class="login100-form-btn" onclick="deleteTile()">
+						Delete
+					</button>
+				</div>	
+			</div>
+		</div>
+	</div>
+	
+<!--===================================-->
+	<script src="update_tiles.js"></script>
+<!--===============================================================================================-->
+	
+<!--===============================================================================================-->
+	
+<!--============================================================
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

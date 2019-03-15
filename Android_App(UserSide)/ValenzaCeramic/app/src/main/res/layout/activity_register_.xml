@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register_Activity">
+    <TextView
+        android:text="Registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="@color/common_google_signin_btn_text_light"
+
+        />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView
+            android:textColor="@color/design_default_color_primary_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name : "
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <EditText
+            android:layout_marginStart="55dp"
+            android:id="@+id/edit_text_name_new"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="Enter Name" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView
+            android:textColor="@color/design_default_color_primary_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Username : "
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <EditText
+            android:id="@+id/edit_text_username_new"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="Create Username" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView
+            android:textColor="@color/design_default_color_primary_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Password :"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <EditText
+            android:id="@+id/edit_text_password_new"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="Create Password" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView
+            android:textColor="@color/design_default_color_primary_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <EditText
+
+            android:layout_marginStart="55dp"
+            android:id="@+id/edit_text_email"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="Enter Email"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView
+            android:textColor="@color/design_default_color_primary_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact No."
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <EditText
+            android:id="@+id/edit_text_contactNo"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="Enter Contact No" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button_register_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register" />
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Marbles_catalog">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_marginTop="35dp"
+            android:text="By Catagory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="35dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id = "@+id/floor_tiles"
+            android:text="Natural Marbles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="45dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id = "@+id/wall_tiles"
+            android:text="Exotic Granite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="45dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id = "@+id/Vitried_tiles"
+            android:text="Engineered Marbles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="45dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id = "@+id/ceramic_tiles"
+            android:text="Porcelain Slabs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="45dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id = "@+id/outdoor_tiles"
+            android:text="Onyx Opera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="45dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
