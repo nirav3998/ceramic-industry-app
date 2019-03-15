@@ -1,0 +1,1 @@
+# ceramic-industry-app
